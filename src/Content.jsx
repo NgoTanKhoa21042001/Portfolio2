@@ -24,7 +24,7 @@ import avatar3 from './assets/images/Testimonials/avatar3.png'
 import avatar4 from './assets/images/Testimonials/avatar4.png'
 
 import Hireme_person from './assets/images/Hireme/person.png'
-import Hireme_person2 from './assets/images/Hireme/person2.jpg'
+import Hireme_person2 from './assets/images/Hireme/person2.png'
 
 // import icons from react-icons
 import { GrMail } from 'react-icons/gr'
@@ -192,23 +192,23 @@ export const content = {
     subtitle: 'GET IN TOUCH',
     social_media: [
       {
-        text: 'codeaprogram@gmail.com',
+        text: 'kakashi21042001@gmail.com',
         icon: GrMail,
-        link: 'mailto:codeaprogram@gmail.com'
+        link: 'kakashi21042001@gmail.com'
       },
       {
-        text: '+91 1234 56778',
+        text: '+84935552021',
         icon: MdCall,
-        link: 'https://wa.me/1234567890'
+        link: 'https://wa.me/0935552021'
       },
       {
-        text: 'codeaprogram',
+        text: 'khoatan214',
         icon: BsInstagram,
-        link: 'https://www.instagram.com/codeaprogram/'
+        link: 'https://www.instagram.com/khoatann214/'
       }
     ]
   },
   Footer: {
-    text: 'All © Copy Right Reserved 2022'
+    text: 'All © Copy Right Reserved 2023'
   }
 }

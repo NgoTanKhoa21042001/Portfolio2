@@ -30,7 +30,7 @@ const Testimonials = () => {
           {Testimonials.testimonials_content.map((content, i) => (
             <SwiperSlide key={i}>
               <div
-                className={`duration-500 bg-bg_light_primary mx-8 border-2 p-8 h-full rounded-2xl flex gap-6 items-center border-slate-200 shadow-lg select-none ${
+                className={`duration-500 bg-bg_light_primary mx-8 border-2 p-8 h-full rounded-2xl flex md:flex-row flex-col gap-6 items-center border-slate-200 shadow-lg select-none ${
                   realIndex !== i && 'blur-sm scale-75'
                 }`}
               >
