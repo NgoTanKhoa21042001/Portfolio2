@@ -11,14 +11,19 @@ const Projects = () => {
     <section id='projects' className='bg-bg_light_primary'>
       <div className='md:container px-5 pt-14 min-h-screen flex flex-col justify-between'>
         <div>
-          <h2 className='title'>{Projects.title}</h2>
-          <h4 className='subtitle'>{Projects.subtitle}</h4>
+          <h2 className='title' data-aos='fade-down'>
+            {Projects.title}
+          </h2>
+          <h4 className='subtitle' data-aos='fade-down'>
+            {Projects.subtitle}
+          </h4>
           <br />
         </div>
         <div className='flex items-center lg:flex-row flex-col-reverse gap-5'>
-          <img src={Projects.image} alt='...' className='max-w-[45vw] min-w-[22rem]' />
+          <img src={Projects.image} data-aos='fade-right' alt='...' className='max-w-[45vw] min-w-[22rem]' />
           <Swiper
             pagination={{ clickable: true }}
+            data-aos='fade-left'
             modules={[Pagination]}
             className='rounded-3xl pb-16 max-w-xs drop-shadow-primary self-start'
           >

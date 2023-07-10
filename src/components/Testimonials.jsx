@@ -12,12 +12,17 @@ const Testimonials = () => {
   return (
     <section>
       <div className='md:container px-5 pt-14'>
-        <h2 className='title'>{Testimonials.title}</h2>
-        <h4 className='subtitle'>{Testimonials.subtitle}</h4>
+        <h2 className='title' data-aos='fade-down'>
+          {Testimonials.title}
+        </h2>
+        <h4 className='subtitle' data-aos='fade-down'>
+          {Testimonials.subtitle}
+        </h4>
         <br />
         <Swiper
           direction={'vertical'}
           pagination={{ clickable: true }}
+          data-aos='fade-up'
           loop={true}
           spaceBetween={40}
           slidesPerView={1.7}
