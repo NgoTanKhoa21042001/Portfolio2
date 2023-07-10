@@ -3,7 +3,7 @@ import { content } from '../Content'
 const Hero = () => {
   const { hero } = content
   return (
-    <section>
+    <section id='home'>
       <div className='min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center'>
         <div className='absolute h-full md:w-4/12 w-8/12 top-0 right-0 bottom-0 bg-primaryLinear -z-10'>
           <h1 className='rotate-90 absolute top-[30%] right-[-15%] text-[#eaf2fa] '>

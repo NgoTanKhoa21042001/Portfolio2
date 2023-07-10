@@ -37,7 +37,7 @@ const Skills = () => {
 
   Modal.setAppElement('#root')
   return (
-    <section className='min-h-fit bg-bg_light_primary'>
+    <section id='skills' className='min-h-fit bg-bg_light_primary'>
       {/* modal */}
 
       <Modal isOpen={modalIsOpen} onRequestClose={closeModal} style={customStyles}>

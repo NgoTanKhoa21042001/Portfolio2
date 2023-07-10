@@ -26,7 +26,7 @@ const Contact = () => {
     )
   }
   return (
-    <section className='bg-dark_primary text-white'>
+    <section id='contact' className='bg-dark_primary text-white'>
       <Toaster position='top-right' reverseOrder={false} />
       <div className='md:container px-5 py-14'>
         <h2 className='title !text-white'>{Contact.title}</h2>
