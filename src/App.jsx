@@ -1,5 +1,7 @@
 /* eslint-disable no-unused-vars */
 // import components
+import { useEffect } from 'react'
+import './App.css'
 import Hero from './components/Hero'
 import Skills from './components/Skills'
 import Service from './components/Services'
@@ -11,7 +13,7 @@ import Navbar from './Layouts/Navbar'
 // ANimation
 import AOS from 'aos'
 import 'aos/dist/aos.css' // You can also use <link> for styles
-import { useEffect } from 'react'
+
 const App = () => {
   useEffect(() => {
     AOS.init({
