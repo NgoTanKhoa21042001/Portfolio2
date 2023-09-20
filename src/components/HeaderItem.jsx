@@ -7,6 +7,7 @@ const HeaderItem = ({ name, Icon }) => {
     <div className='flex items-center text-white gap-3 text-[15px] font-semibold cursor-pointer hover:underline underline-offset-8 mb-2'>
       <Icon />
       <h2 className=''>{name}</h2>
+      <h1>g</h1>
     </div>
   )
 }
