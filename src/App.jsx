@@ -8,7 +8,18 @@ import Header from './components/Header'
 const App = () => {
   return (
     <div className=''>
-      <Header />
+      <Navbar />
+      <Hero />
+      <Skills />
+      <Service />
+      <Projects />
+      <Testimonials />
+      <Hireme />
+      <Contact />
+      <footer className='text-center'>
+        <h6 className='mb-3'>Ngo Tan Khoa</h6>
+        <p>tankhoa @ All CopyRights Reversed 2023</p>
+      </footer>
     </div>
   )
 }
