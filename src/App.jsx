@@ -33,7 +33,7 @@ const App = () => {
       <Hireme />
       <Contact />
       <footer className='text-center'>
-        <h6 className='mb-3'>Ngo Tan Khoa</h6>
+        <h6 className='mb-3'>Ngo Tan Khoa.</h6>
         <p>tankhoa @ All CopyRights Reversed 2023</p>
       </footer>
     </div>
